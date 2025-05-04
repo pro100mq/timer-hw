@@ -2,10 +2,10 @@
   "name": "timer-hw",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://pro100mq.github.io/timer-hw/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /timer-hw",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },

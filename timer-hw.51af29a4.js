@@ -1,0 +1,2 @@
+const e=document.querySelector("#btnStartHour"),t=document.querySelector("#timeHour");e.addEventListener("click",()=>{let e=60,n=setInterval(()=>{t.textContent=e,30===e?alert("У вас залишилось половина часу"):0===e&&clearInterval(n),e--},1e3)});const n=document.querySelector("#btnStartSeconds"),r=document.querySelector("#timeSeconds");n.addEventListener("click",()=>{let e=3e3,t=setInterval(()=>{r.textContent=`${e/100}`,1e3===e?n.style.background="red":0===e&&(n.style.background="green",clearInterval(t)),e-=10},100)});
+//# sourceMappingURL=timer-hw.51af29a4.js.map
